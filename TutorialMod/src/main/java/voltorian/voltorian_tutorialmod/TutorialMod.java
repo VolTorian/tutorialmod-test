@@ -3,6 +3,7 @@ package voltorian.voltorian_tutorialmod;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -16,6 +17,7 @@ public class TutorialMod
 	public static final String NAME = "Tutorial Mod";
 	public static final String VERSION = "0.0.1";
 	public static final String MC_VERSION = "[1.12.2]";
+	//public static final CreativeTabs TUTORIALMOD_TAB = new InvestitureTab();
 
 	public static final Logger LOGGER = LogManager.getLogger(TutorialMod.MODID);
 
